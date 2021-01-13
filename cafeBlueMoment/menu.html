@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="js">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/toggle.css">
+    <link rel="stylesheet" href="./css/modal.css">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
+    <title>cafe</title>
+</head>
+<body id="menu_body">
+    <header>
+        <div>
+        <h1><img src="./img/site_logo.png" alt=""></h1>
+        <ul class="header_nav">
+            <li><a>HOME</a></li>
+            <li>
+                <a href="">MENU</a>
+                <ul>
+                    <li>Lunch</li>
+                    <li>Dinner</li>
+                    <li>Dessert</li>
+                    <li>Drinks</li>
+                </ul>
+            </li>
+            <li>BLOG</li>
+            <li><a class="res-js-modal-open">RESERVE</a></li>
+            <li>TAKEOUT</li>
+            <li><i class="fas fa-search"></i></li>
+        </ul>
+    </div>
+    <div class="res-modal res-js-modal">
+        <div class="res-modal__bg res-js-modal-close"></div>
+        <div class="res__modal__content">
+            <div>
+                <form action="" class="res_form">
+                    <input type="text">aaaa
+                    <input type="text">bbbb
+                    <input type="text">cccc
+                    <input type="text">dddd
+                    <input type="text">eeee
+                    <input type="text">ffff
+                </form>
+            </div>
+            <a class="res-js-modal-close" href="">
+                <p>×</p></a>
+        </div><!--modal__inner-->
+    </div>
+    </header>
+    <div class="hero">
+
+    </div>
+    <div id="hero_txtarea" class="inner">
+        <p id="hero_sub_title">Discover</p>
+        <h2 id="hero_title">Our Menu</h2>
+
+        <img src="./img/fukidasi.png" alt="" id="bottom_f_img">
+    </div>
+
+    <div class="inner" id="menu">
+        <p class="sub_title">Taste the best</p>
+        <h2 class="title">Discover Our Menu</h2>
+        <p class="decoration">＊</p>
+        <p class="txt">Everyone has taste, even if they don't realize it. Even if you're not a great chef, there's nothing to stop you understanding the difference between what tastes good and what doesn't.</p>
+
+        <div id="menu_tab_area">
+            <nav>
+                <ul id="tab_btn">
+                    <li class="active">Lunch</li>
+                    <li>Dinner</li>
+                    <li>Dessert</li>
+                    <li>Drinks</li>
+                </ul>
+            </nav>
+            <div class="tab_content">
+                <ul>
+                    <li class="menu_card">
+                        <div class="menu_txt_area">
+                            <p class="menu_price">$24.95</p>
+                            <p class="menu_title">Grilled Fillet
+                            </p>
+                            <p class="menu_decoration">＊</p>
+                            <p class="menu_txt">Pork fillet, ginger, garlic, honey, pepper & canola oil.creamy chesapeake crab dip with artichoke, baked and topped with cheddar cheese, with crusty bread for dipping. creamy chesapeake crab dip with artichoke, baked and topped with cheddar cheese.
+                            </p>
+                        </div>
+                        <img src="./img/fukidasi.png" alt="" class="fukidasi bottom">
+                        <a class="js-modal-open" href=""><img src="./img/kari-shea-pJn9WhMqFIs-unsplash.jpg" alt="" class="menu_img"></a>
+                    </li>
+
+                    <div class="modal js-modal">
+                        <div class="modal__bg js-modal-close"></div>
+                        <div class="modal__content">
+                            <img src="" alt="" id="modal_img">
+                            <a class="js-modal-close" href="">
+                                <p>×</p></a>
+                        </div><!--modal__inner-->
+                    </div>
+                    <li class="menu_card">
+                        <a class="js-modal-open" href=""><img src="img/coffee-4480463_1920.jpg" alt="" class="menu_img"></a>
+                        <img src="./img/fukidasi.png" alt="" class="fukidasi top">
+                        <div class="menu_txt_area">
+                            <p class="menu_price">$20.95</p>
+                            <p class="menu_title">cheese cake
+                            </p>
+                            <p class="menu_decoration">＊</p>
+                            <p class="menu_txt">Pork fillet, ginger, garlic, honey, pepper & canola oil.creamy chesapeake crab dip with artichoke, baked and topped with cheddar cheese, with crusty bread for dipping. creamy chesapeake crab dip with artichoke, baked and topped with cheddar cheese.
+                            </p>
+                        </div>
+                    </li>
+                    <li class="menu_card">
+                        <div class="menu_txt_area">
+                            <p class="menu_price">$24.95</p>
+                            <p class="menu_title">Strawberry cake
+                            </p>
+                            <p class="menu_decoration">＊</p>
+                            <p class="menu_txt">Pork fillet, ginger, garlic, honey, pepper & canola oil.creamy chesapeake crab dip with artichoke, baked and topped with cheddar cheese, with crusty bread for dipping. creamy chesapeake crab dip with artichoke, baked and topped with cheddar cheese.
+                            </p>
+                        </div>
+                        <img src="./img/fukidasi.png" alt="" class="fukidasi bottom">
+                        <a class="js-modal-open" href=""><img src="./img/cake-4598916_1920.jpg" alt="" class="menu_img"></a>
+
+                    </li>
+                    <li class="menu_card">
+                        <div class="menu_txt_area">
+                            <p class="menu_price">$24.95</p>
+                            <p class="menu_title">Grilled Fillet
+                            </p>
+                            <p class="menu_decoration">＊</p>
+                            <p class="menu_txt">Pork fillet, ginger, garlic, honey, pepper & canola oil.creamy chesapeake crab dip with artichoke, baked and topped with cheddar cheese, with crusty bread for dipping. creamy chesapeake crab dip with artichoke, baked and topped with cheddar cheese.
+                            </p>
+                        </div>
+                        <img src="./img/fukidasi.png" alt="" class="fukidasi bottom">
+                        <a class="js-modal-open" href=""><img src="./img/kari-shea-pJn9WhMqFIs-unsplash.jpg" alt="" class="menu_img"></a>
+
+                    </li>
+                    <li class="menu_card">
+                        <a class="js-modal-open" href=""><img src="./img/kari-shea-pJn9WhMqFIs-unsplash.jpg" alt="" class="menu_img"></a>
+                        <img src="./img/fukidasi.png" alt="" class="fukidasi top">
+                        <div class="menu_txt_area">
+                            <p class="menu_price">$24.95</p>
+                            <p class="menu_title">Grilled Fillet
+                            </p>
+                            <p class="menu_decoration">＊</p>
+                            <p class="menu_txt">Pork fillet, ginger, garlic, honey, pepper & canola oil.creamy chesapeake crab dip with artichoke, baked and topped with cheddar cheese, with crusty bread for dipping. creamy chesapeake crab dip with artichoke, baked and topped with cheddar cheese.
+                            </p>
+                        </div>
+
+
+                    </li>
+                    <li class="menu_card">
+                        <div class="menu_txt_area">
+                            <p class="menu_price">$24.95</p>
+                            <p class="menu_title">Grilled Fillet
+                            </p>
+                            <p class="menu_decoration">＊</p>
+                            <p class="menu_txt">Pork fillet, ginger, garlic, honey, pepper & canola oil.creamy chesapeake crab dip with artichoke, baked and topped with cheddar cheese, with crusty bread for dipping. creamy chesapeake crab dip with artichoke, baked and topped with cheddar cheese.
+                            </p>
+                        </div>
+                        <img src="./img/fukidasi.png" alt="" class="fukidasi bottom">
+                        <a class="js-modal-open" href=""><img src="./img/kari-shea-pJn9WhMqFIs-unsplash.jpg" alt="" class="menu_img"></a>
+
+                    </li>
+                </ul>
+                
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="inner footer_top">
+            <div>
+                <h4 class="footer_title">Our address</h4>
+                <p class="footer_txt">22 Alnahas Building, 2 AlBahr St, Tanta Al-Gharbia Governorate, Egypt</p>
+                <a href="" class="footer_link">VIEW ON MAP</a>
+            </div>
+            <div class="footer_center">
+                <h4 class="footer_title footer_title_center">Make A Reservation</h4>
+                <p class="decoration">＊</p>
+                <ul class="footer_txt">
+                    <li>Week days<span>09.00 – 24:00</span></li>
+                    <li>Saturday<span>08:00 – 03.00</span></li>
+                    <li>Sunday<span>Day off</span></li>
+                </ul>
+                <a href="" class="footer_link footer_link_center">Find A Table</a>
+            </div>
+            <div>
+                <h4 class="footer_title">Contact us</h4>
+                <p class="footer_txt">Main Email: 7oroof@7oroof.com<br>Phone: 02 01065370701</p>
+                <a href="" class="footer_link">SEND A MESSAGE</a>
+            </div>
+        </div>
+        <div class="inner footer_middle">
+            <ul class="sns">
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+        <div class="footer_bottom">
+            <small>&copy; 2020 ToruMurakami. All Rights Reserved.</small>
+        </div>
+    </footer>
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="./js/main.js"></script>
+    <script type="text/javascript" src="./js/jquery.flexslider-min.js"></script>
+</body>
+</html>

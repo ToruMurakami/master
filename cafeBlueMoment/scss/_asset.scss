@@ -1,0 +1,78 @@
+//フォントファミリー
+$Great:'Great Vibes', cursive;
+
+$Kaushan:'Kaushan Script', cursive;
+
+//色の設定
+$key_col:#c59d5f;
+$txt_col:#a5a5a5;
+
+//クラス
+.inner{
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.sub_title{
+    font-family: $Great;
+    font-size: 3.5rem;
+    color: #c59d5f;
+    margin-bottom: 5px;
+}
+
+.title{
+    font-family: $Kaushan;
+    font-size: 4.5rem;
+    color: #222;
+}
+
+.decoration{
+    font-size: 2rem;
+    margin: 20px 0;
+    color: plum;
+}
+
+.txt{
+    max-width: 750px;
+    font-size: 1.5rem;
+    margin: auto;
+    color: $txt_col;
+    line-height: 24px;
+    margin-bottom: 60px;
+}
+
+//mixin(関数的なものを作成する)
+@mixin btn($fc,$bg) {
+    a {
+        display: block;
+        background-color: $bg;
+        max-width: 270px;
+        line-height: 70px;
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+        color: $fc;
+        transition: .5s;
+    }
+}
+
+
+@mixin tr($size,$color,$direction) {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border: $size solid transparent;
+    @if $direction == 'top'{
+        border-top: $size solid $color;
+    }
+    @if $direction=='left' {
+        border-left: $size solid $color;
+    }
+    @if $direction=='right' {
+        border-right: $size solid $color;
+    }
+    @if $direction=='bottom' {
+        border-bottom: $size solid $color;
+    }
+}

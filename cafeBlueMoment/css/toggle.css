@@ -1,0 +1,7 @@
+.header_sc{
+    background-color: #fff;
+}
+.header_sc h1,
+.header_sc li{
+    color: #333!important;
+}
