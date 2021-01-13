@@ -1,0 +1,65 @@
+//フォントファミリー
+$hira: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans",
+  Meiryo, sans-serif;
+
+$min: "Noto Serif JP", serif;
+//色の設定
+$key_col: #c59d5f;
+$txt_col: #a5a5a5;
+
+//クラス
+.inner {
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.title {
+  font-family: $min;
+  font-size: 4.5rem;
+  color: #222;
+}
+.min_title {
+  margin-top: 10px;
+  font-family: $min;
+  font-size: 2rem;
+  color: #222;
+}
+
+.min_title span {
+  font-size: 18px;
+  font-size: 1.8rem;
+  display: block;
+  margin-bottom: 50px;
+}
+
+section {
+  margin-top: 100px;
+}
+.min_title {
+  position: relative;
+}
+.min_title::before {
+  position: absolute;
+  bottom: -20px;
+  left: calc(50% - 30px);
+  width: 60px;
+  height: 5px;
+  content: "";
+  border-radius: 3px;
+  background: #80b3e6;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.attention {
+  color: blue;
+  font-size: 2rem;
+}
+
+.attention_link {
+  color: orangered;
+  text-decoration: underline;
+}

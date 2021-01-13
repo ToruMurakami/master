@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Noto+Serif+JP:400,700&display=swap&subset=japanese"
+      rel="stylesheet"
+    />
+    <title>星見区プラネタリウム</title>
+  </head>
+  <body>
+    <header>
+      <div id="hero_img_area">
+        <img src="./img/logo.png" alt="" id="hero_logo" />
+        <img src="./img/star-projector-91861_1920.jpg" alt="" id="hero_img" />
+        <a href="#main" id="sc_down"><span></span>Scroll</a>
+      </div>
+    </header>
+
+    <main>
+      <section id="program_section" class="inner">
+        <a href="#" name="main"></a>
+        <p class="title">Proglam</p>
+        <p class="min_title" id="one_sub"><span>投映プログラム</span></p>
+        <div id="schedule_area">
+          <div>
+            <p>公演状況</p>
+            <p>14：00～</p>
+          </div>
+          <div>
+            <p>投映プログラム</p>
+            <p>一般投映</p>
+          </div>
+          <div>
+            <p>今月のトピック</p>
+            <p>2021年の天文現象</p>
+          </div>
+        </div>
+
+        <div class="tab_wrap">
+          <input
+            id="TAB_01"
+            type="radio"
+            name="TAB"
+            class="tab_switch"
+            checked="checked"
+          /><label class="tab_label" for="TAB_01" id="left_tab">一般投映</label>
+          <div class="tab_content">
+            <p class="attention">
+              ＜プラネタリウムのご利用にあたって＞<br />
+              <span class="bold"
+                >新型コロナウィルス感染防止のため、ご来場前に必ず
+                <a class="attention_link" href="#">こちら</a>
+                をご確認ください。</span
+              ><br />
+              ※確認事項にご了承いただけない場合はご入場できません。
+            </p>
+            <p class="commentary">
+              季節の星空案内とトピックスのご紹介。<br />
+              流星群や月食、惑星の見え方など、2021年に起こる主な天文現象をご紹介します。<br />
+              ＊開場は投映開始30分前<br />
+              ＊途中の入退場はできません。<br />
+              ＊感染拡大状況によって中止・変更の可能性があります。<br />
+            </p>
+          </div>
+          <input id="TAB_02" type="radio" name="TAB" class="tab_switch" /><label
+            class="tab_label"
+            for="TAB_02"
+            >ちびっこプラネ</label
+          >
+          <div class="tab_content">
+            <p class="attention">
+              ＜プラネタリウムのご利用にあたって＞<br />
+              <span class="bold"
+                >新型コロナウィルス感染防止のため、ご来場前に必ず
+                <a class="attention_link" href="#">こちら</a>
+                をご確認ください。</span
+              ><br />
+              ※確認事項にご了承いただけない場合はご入場できません。
+            </p>
+            <p class="commentary">
+              お星さまをむすんでお絵かきしよう！ お星さまのお話を聞こう！<br />
+              小さなお友だち向けの、星や宇宙のやさしいおはなし。<br />
+              ＊開場は投映開始30分前<br />
+              ＊途中の入退場はできません。<br />
+              ＊感染拡大状況によって中止・変更の可能性があります。<br />
+            </p>
+          </div>
+          <input id="TAB_03" type="radio" name="TAB" class="tab_switch" /><label
+            class="tab_label"
+            for="TAB_03"
+            id="right_tab"
+            >こども星空探偵団</label
+          >
+          <div class="tab_content">
+            <p class="attention">
+              ＜プラネタリウムのご利用にあたって＞<br />
+              <span class="bold"
+                >新型コロナウィルス感染防止のため、ご来場前に必ず
+                <a class="attention_link" href="#">こちら</a>
+                をご確認ください。</span
+              ><br />
+              ※確認事項にご了承いただけない場合はご入場できません。
+            </p>
+            <p class="commentary">
+              いろいろな宇宙のナゾを調査しよう！
+              一般投映のトピックを、さらにやさしく解説します。<br />
+              ＊「こども星空探偵団」は当面の間、第4日曜日に投映します。<br />
+              ＊開場は投映開始30分前<br />
+              ＊途中の入退場はできません。<br />
+              ＊感染拡大状況によって中止・変更の可能性があります。<br />
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="program_section" class="inner">
+        <a href="#" name="price"></a>
+        <p class="title">Price Information</p>
+        <p class="min_title"><span>料金案内</span></p>
+        <div id="price_area">
+          <div id="nomal">
+            <p class="proglam_title">一般投映</p>
+            <table>
+              <tr>
+                <td>トピック</td>
+                <td>12月「2021年の天文現象」</td>
+              </tr>
+              <tr>
+                <td>実施日時</td>
+                <td>土曜・日曜・祝休日<br />14時～、16時～（50分）</td>
+              </tr>
+              <tr>
+                <td>対象</td>
+                <td>どなたでも入場可</td>
+              </tr>
+              <tr>
+                <td>入場料金</td>
+                <td>
+                  大人（高校生以上）230円<br />
+                  こども（３歳～中学生）110円
+                </td>
+              </tr>
+            </table>
+          </div>
+          <div id="child">
+            <p class="proglam_title">ちびっこプラネ</p>
+            <table>
+              <tr>
+                <td>トピック</td>
+                <td>12月「ながれぼし みえるかな？」</td>
+              </tr>
+              <tr>
+                <td>実施日時</td>
+                <td>毎週土曜<br />11時～（40分）</td>
+              </tr>
+              <tr>
+                <td>対象</td>
+                <td>３歳～小学校低学年（どなたでも入場可）</td>
+              </tr>
+              <tr>
+                <td>入場料金</td>
+                <td>
+                  大人（高校生以上）230円<br />
+                  こども（３歳～中学生）110円
+                </td>
+              </tr>
+            </table>
+          </div>
+          <div id="child_hard">
+            <p class="proglam_title">こども星空探偵団</p>
+            <table>
+              <tr>
+                <td>トピック</td>
+                <td>12月「2021年の天文現象」</td>
+              </tr>
+              <tr>
+                <td>実施日時</td>
+                <td>第4日曜日<br />11時～（50分）</td>
+              </tr>
+              <tr>
+                <td>対象</td>
+                <td>３歳～小学校低学年（どなたでも入場可）</td>
+              </tr>
+              <tr>
+                <td>入場料金</td>
+                <td>
+                  大人（高校生以上）230円<br />
+                  こども（３歳～中学生）110円
+                </td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </section>
+      <section id="news_section" class="inner">
+        <a href="#" name="news"></a>
+        <p class="title">News</p>
+        <p class="min_title"><span>ニュース</span></p>
+      </section>
+    </main>
+  </body>
+</html>
