@@ -1,0 +1,35 @@
+.searchform {
+  position: relative;
+}
+
+.searchfield {
+  font-size: 14px;
+  width: 95%;
+  margin: 3px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: solid 1px #bbb;
+  border-radius: 30px;
+  background-color: #fff;
+}
+
+.searchsubmit {
+  content: "";
+  font-size: 1.4em;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 8%;
+  margin: auto 0;
+  padding: 0;
+  cursor: pointer;
+  color: #6297f5;
+  border: none;
+  width: 20px;
+  height: 20px;
+  background: url(../img/search-icon.png) no-repeat;
+}
+
+.searchsubmit:hover {
+  opacity: 0.6;
+}

@@ -1,0 +1,59 @@
+<strong>おはようございます、突然ですがWordpress弄ってますか！？</strong>
+(僕はこのサイトを改修する際、久しぶりにガッツリいじりました…)
+
+朝礼の発表のクオリティ向上の話があり、
+ちょうど良いので作ってから長らく放置していたこのサイトを使おうと思ったわけです。
+使うにあたっていくつか欲しい機能があったので少し改修してみました。
+
+改修の中ひとつが表題の無限スクロールの実装です。
+
+▼参考にした記事はこちら
+<a href="https://haniwaman.com/infinite-scroll/" rel="noopener" target="_blank">https://haniwaman.com/infinite-scroll/</a>
+
+  <div>
+    <ul class="list">
+      <li>1.既存一覧の記事取得数制限</li>
+      <li>2.無限スクロール部分の記事取得</li>
+      <li>3.取得した記事の表示</li>
+    </ul>
+  </div>
+
+<h2>1.既存一覧の記事取得数制限</h2>
+今まで一覧表示にしていた箇所を初期表示の分だけにします。
+僕の場合は初期表示を5件にしています。
+  <div class="img_box">
+<img src="https://www.next-doorrr.com/knowledge-box/wp-content/uploads/2022/02/スクリーンショット-2022-02-21-223738.png" alt="" />
+  <div id="grayDisplay"></div>
+  </div>
+
+<h2>2.無限スクロール部分の記事取得</h2>
+  <div>
+    ▼2-1.追加表示用のPHPファイル作成
+    トップページに記載していたサブループ処理を抜き出して、
+    このファイルでも表示できるようにしています。
+
+    <div class="img_box">
+<img src="https://www.next-doorrr.com/knowledge-box/wp-content/uploads/2022/02/スクリーンショット-2022-02-21-225104.png" alt="" />
+  <div id="grayDisplay">
+  </div>
+
+  </div>
+　</div>
+
+  <div>
+    ▼2-2.追加表示用のjsファイル作成
+    スクロールしたときに6件目から記事を取得できるようにしています。
+  <div class="img_box">
+<img src="https://www.next-doorrr.com/knowledge-box/wp-content/uploads/2022/02/スクリーンショット-2022-02-21-224300.png" alt="" />
+  <div id="grayDisplay"></div>
+
+  </div>
+  </div>
+
+<h2>3.取得した記事の表示</h2>
+　▼devツールで見るとこんな感じになります。
+  <div class="img_box">
+[video width="896" height="1088" mp4="https://www.next-doorrr.com/knowledge-box/wp-content/uploads/2022/02/knowledge-box-Google-Chrome-2022-02-21-22-53-32.mp4"][/video]    
+
+  </div>
+
