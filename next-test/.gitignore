@@ -1,8 +1,6 @@
-<<<<<<< HEAD
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
-/next_test/node_modules
 /node_modules
 /.pnp
 .pnp.js
@@ -30,6 +28,3 @@ yarn-error.log*
 .env.development.local
 .env.test.local
 .env.production.local
-=======
-/next-test/components/bootstrap-5.0.2-dist/*
->>>>>>> 42d7a0fc5d6e05d866bd77bea4277978a53eb300
